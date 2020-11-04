@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectCdeBrani"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1190.265">
     <Grid>
-        
+        <ListBox HorizontalAlignment="Left" Height="368" Margin="7,47,0,0" VerticalAlignment="Top" Width="245" BorderBrush="Black"/>
+        <ListBox HorizontalAlignment="Left" Height="362" Margin="269,48,0,0" VerticalAlignment="Top" Width="283" BorderBrush="Black"/>
+        <Label x:Name="lstCd" Content="Lista Cd" HorizontalAlignment="Left" Height="32" Margin="7,7,0,0" VerticalAlignment="Top" Width="244" BorderBrush="Black"/>
+        <Label x:Name="lstBraniNelCd" Content="Lista Brani nel CD selezionato" HorizontalAlignment="Left" Height="32" Margin="267,9,0,0" VerticalAlignment="Top" Width="285" BorderBrush="Black"/>
+        <Button x:Name="btn" Content="Visualizza info del cd selezionato" HorizontalAlignment="Left" Height="50" Margin="577,22,0,0" VerticalAlignment="Top" Width="197"/>
+        <Button x:Name="btnAggiungiBrano" Content="AGGIUNGI BRANO" HorizontalAlignment="Left" Height="53" Margin="577,85,0,0" VerticalAlignment="Top" Width="197"/>
+        <Label x:Name="lblTitolo" Content="Label" HorizontalAlignment="Left" Height="40" Margin="567,220,0,0" VerticalAlignment="Top" Width="140" BorderBrush="Black"/>
+        <Label Content="Titolo:" HorizontalAlignment="Left" Height="41" Margin="605,188,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold"/>
+        <Label Content="Autore:" HorizontalAlignment="Left" Height="41" Margin="762,184,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold"/>
+        <Label x:Name="lblAutore" Content="Label" HorizontalAlignment="Left" Height="40" Margin="734,221,0,0" VerticalAlignment="Top" Width="140" BorderBrush="Black"/>
+        <Label Content="Durata:" HorizontalAlignment="Left" Height="41" Margin="905,182,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold"/>
+        <Label x:Name="lblDurata" Content="Label" HorizontalAlignment="Left" Height="40" Margin="904,219,0,0" VerticalAlignment="Top" Width="140" BorderBrush="Black"/>
+
     </Grid>
 </Window>
